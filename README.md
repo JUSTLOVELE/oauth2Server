@@ -2,5 +2,8 @@
 ## Description
 - Implementation of oauth2 based on go
 ## use framework:
-- gin
-- xorm
+- gin  
+  go get -u github.com/gin-gonic/gin  
+  https://gin-gonic.com/zh-cn/docs/quickstart/
+- xorm  
+  go get xorm.io/xorm
