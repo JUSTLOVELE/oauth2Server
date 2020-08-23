@@ -7,3 +7,5 @@
   https://gin-gonic.com/zh-cn/docs/quickstart/
 - xorm  
   go get xorm.io/xorm
+- uuid  
+  go get github.com/satori/go.uuid
