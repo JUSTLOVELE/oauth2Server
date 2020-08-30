@@ -9,3 +9,5 @@
   go get xorm.io/xorm
 - uuid  
   go get github.com/satori/go.uuid
+- goconfig  
+  go get github.com/Unknwon/goconfig
