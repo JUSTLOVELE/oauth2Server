@@ -15,15 +15,15 @@ func CreateDB () {
 
 	fmt.Println(dbconf)
 	if e != nil {
-		fmt.Println(e)
+		Log.Panicln(e)
 	}
-
+	//db := "mysql"
 	db, _ := Conf.GetValue(constant.Profile, constant.DB)
 	var err error
 	DBengine, err = xorm.NewEngine(db, dbconf)
 
 	if err != nil {
-		fmt.Println("数据库报错")
+		Log.Panicln(err)
 	}
 }
 
